@@ -1,0 +1,146 @@
+####
+#### Hobo Translation
+####
+"no":      
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "{{model}}oversikt"
+        heading: "{{model}}oversikt"
+  
+      new:
+        title: "Ny {{model}}"
+        heading: "Ny {{model}}"
+  
+      show:
+        title:  "{{model}}"
+        heading: "{{model}}"
+        back_link: "Tilbake"
+        edit_link: "Redigére {{model}}"
+        new_link: "Lag ny {{model}}"
+        add_form_heading: "Legg til ny {{model}}"
+  
+      edit:
+        title: "Endre {{model}}"
+        heading: "Endre {{model}}"
+  
+      index_for_owner:
+        title: "{{model}} for"
+        heading:
+          your: "Dine {{model}}"
+          other: "{{model}}"
+        subheading: "For:"    
+  
+      new_for_owner:
+        title: "Ny {{model}} for"
+        heading: "Ny {{model}}"
+        subheading: "For:"
+  
+      login:
+        title: "Logg inn"
+        heading: "Logg inn"
+        email: "E-post"
+        password: "Passord"
+        remember_me: "Husk meg"
+        login: "Logg inn"
+        signup: "Registrer deg"
+        forgot_password: "Glemt passordet?"
+  
+      signup:
+        title: "Registrering"
+        heading: "Registrering av ny bruker"
+  
+      forgot_password:
+        title: "Glemt passord?"
+        heading: "Glemt passord?"
+        text: "Oppgi e-post-adressen som er registrert hos oss. 
+               Vi sender så en e-post til deg som du kan bruke for å generere nytt passord"
+        email: "E-post"
+        send: "Send"
+
+      forgot_password_sent:
+        title: "Glemt passord - E-post sendt"
+        heading: "Glemt passord - E-post sendt"
+        text: "En e-post med videre instruksjoner om hvordan du genererer nytt passord er sendt til deg på {{email}}. Mottar du ikke denne mailen så bes du å sjekke spam-filteret ditt."
+
+      account_disabled:
+        title: "Konto ikke funnet"
+        heading: "Konto ikke funnet"
+        text: "Det er ikke funnet noen konto for e-post adressen som ble oppgitt. Sjekk at du ikke har skrevet adressen feil."
+        
+    # hobos default action translation
+    actions:
+      new: "Opprett ny"
+      create: "Opprette"
+      previous: "Forrige"
+      next:  "Neste"
+      add: "Legg til"
+      more: "Mer"
+      delete: "Slett {{model}}"
+      save: "Lagre"
+      cancel: "Avbryt"
+      edit: "Endre {{model}}"
+      back: "Tilbake til "
+      send: "Send"
+      remove: "Fjerne"
+      signup: "Registrér"
+      login: "Logg inn"
+      
+    # hobos default message translation  
+    messages:
+      create:
+        success: "{{model}} opprettet."
+        error: "Kan ikke opprette {{model}}.\n {{errors}}"
+      creator:
+        error: "Kunne ikke opprette {{name}}.\n{{errors}}"
+      transition:
+        error: "Kunne ikke kjøre overgang/'transition' {{name}}.\n{{errors}}"
+      update:
+        no_attribute_error: "Ingen attributter å oppdatere er spesifisert."
+        success: "Endringene er gjennomført"        
+        error: "Endringen gav følgende feil:\n{{errors}}"
+      destroy:
+        success: "{{model}} slettet."
+      signup:
+        success: "Takk for at du registrerte deg!"
+        must_activate: "Du må aktivere kontoen din før du kan logge inn. Vennligst sjekk mailen din."
+      login:
+        success: "Du er nå pålogget."
+        error: "Du har ikke angitt gyldig e-postadresse og passord."
+      logout: "Du er nå logget av."
+      reset_password: "Ditt passord har blitt tilbakestilt."
+      permission_denied: "Ingen adgang "
+      not_found: "Siden du prøver å se finnes ikke."
+      unauthenticated: "Kunne ikke autentisere deg"
+      current_password_is_not_correct: "er ikke riktig"
+      you_are_site_admin: "Du er nå registrert som administrator."
+      you_signed_up: "Du har registrert deg"
+      no: "Ingen {{model}} tilgjengelig."
+      confirm: "Er du sikker?"
+      
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "Ingen {{model}}"
+        one: "{{count}} {{model}}"
+        other: "{{count}} {{model}}"
+      heading:
+        your: "{{model}}"
+        other: "Relasjoner"
+      add_form_heading: "Opprett {{model}}"
+      empty_message: "Ingen registrerte relasjoner"
+    
+    # hobos form translation
+    forms:
+      new:
+        heading: "Ny {{model}}"
+      error:
+        heading: "Følgende feil oppstod:"
+
+    # hobo support
+    support:
+      or: "eller"
+      a: "en"
+      an: "en"
+    
