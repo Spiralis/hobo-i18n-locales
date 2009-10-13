@@ -1,5 +1,5 @@
 # Welcome to the Hobo-i18n-translations project
-This is a complementary site for maintaining different hobo-i18n locale translations. 
+This is a complementary site for [hobo-i18n](http://github.com/Spiralis/hobo-i18n). It focuses on maintaining different hobo-i18n locale translations. 
 
 ## hobo-i18n and locale files
 hobo-i18n does not say any thing about how many and which files you add your i18n-keys and translations to. Neither does RoR-i18n, as a matter of fact. Instead the simple convention used in this repository is to collect all hobo-specific-defaults in a single file named hobo.&lt;locale&gt;.yml. 
