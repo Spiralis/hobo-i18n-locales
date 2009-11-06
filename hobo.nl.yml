@@ -1,0 +1,145 @@
+####
+#### Hobo Translation
+####
+nl:
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "{{model}} Index"
+        heading: "{{model}} Index"
+
+      new:
+        title: "{{model}} Toevoegen"
+        heading: "{{model}} Toevoegen"
+
+      show:
+        title: "{{model}}"
+        heading: "{{model}}"
+        back_link: "Terug"
+        edit_link: "Wijzig {{model}}"
+        new_link: "{{model}} Toevoegen"
+        add_form_heading: "{{model}} Toevoegen"
+
+      edit:
+        title: "{{model}} Wijzigen"
+        heading: "{{model}} Wijzigen"
+
+      index_for_owner:
+        title: "{{model}}s voor"
+        heading:
+          your: "Uw {{model}}s"
+          other: "{{model}}s"
+        subheading: "Voor:"
+
+      new_for_owner:
+        title: "Nieuwe {{model}} voor"
+        heading: "Nieuwe {{model}}"
+        subheading: "Voor:"
+          
+      login:
+        title: "Login"
+        heading: "Login"
+        email: "E-mail"
+        password: "Wachtwoord"
+        remember_me: "Onthoudt mij?"
+        login: "Login"
+        signup: "Registreren"
+        forgot_password: "Wachtwoord vergeten?"
+
+      signup:
+        title: "Registeren"
+        heading: "Registratie van een nieuwe gebruiker"
+  
+      forgot_password:
+        title: "Wachtwoord vergeten?"
+        heading: "Wachtwoord vergeten?"
+        text: "Voer het email-adres in waar onder u staat geregistreerd, en instructies om uw wachtwoord te wijzigen worden naar dit email-adres verzonden."
+        email: "E-mail"
+        send: "Verstuur"
+
+      forgot_password_sent:
+        title: "Wachtwoord vergeten - E-mail verstuurt"
+        heading: "Wachtwoord vergeten - E-mail verstuurt"
+        text: "Als het e-mailadres, {{email_address}}, bij ons bekend is, zult u een e-mail ontvangen met instucties om het wachtwoord te wijzigen. Als u deze e-mail niet hebt ontvangen, controleer dan uw junk mail folder."
+
+      account_disabled:
+        title: "Account niet aanwezig"
+        heading: "Account niet aanwezig"
+        text: "Geen account gevonden dat bij het opgegeven e-mail adres hoort. Controleer of het e-mail adres correct is."
+
+    # hobos default action translation
+    action:
+      new: "Nieuw"
+      create: "Aanmaken"
+      previous: "Vorige"
+      next: "Volgende"
+      add: "Toevoegen"
+      more: "Meer"
+      delete: "Verwijder {{model}}"
+      save: "Bewaar"
+      cancel: "Annuleren"
+      edit: "Wijzig {{model}}"
+      back: "Terug naar"
+      send: "Verstuur"
+      remove: "Verwijder"
+      signup: "Registreren"
+      login: "Inloggen"
+    
+    # hobos default message translation  
+    messages:
+      create:
+        success: "{{model}} is bewaard"
+        error: "{{model}} kan niet bewaard worden.\n{{errors}}"
+      creator:
+        error: "Creator {{name}} onmogelijk.\n{{errors}}"
+      transition:
+        error: "Overgang {{name}} onmogelijk.\n{{errors}}"
+      update:
+        no_attribute_error: "Geen wijziging gespecificeerd in params"
+        success: "De wijzigingen voor {{model}} zijn bewaard"
+        error: "Er is een probleem met deze wijziging.\n{{errors}}"
+      destroy:
+        success: "De {{model}} is verwijderd"
+      signup: 
+        success: "Bedankt voor het registreren!"
+        must_activate: "U moet uw account activeren voordat u kan inloggen. Controleer uw e-mail."
+      login: 
+        success: "U bent nu ingelogd."
+        error: "Gebruikersnaam ({{login}}) en wachtwoord is ongeldig!"
+      logout: "U bent nu uitgelogd."
+      reset_password: "Uw wachtwoord is gereset."
+      permission_denied: "Toegang geweigerd"
+      not_found: "De door u gevraagde pagina is niet gevonden."
+      unauthenticated: "Het was onmogelijk u te authenticeren"
+      current_password_is_not_correct: "is niet juist"
+      you_are_site_admin: "U bent nu de site administrator"
+      you_signed_up: "U bent geregistreerd"
+      no: "Geen {{model}} beschikbaar."
+      confirm: "Weet u het zeker?"
+        
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "Geen {{model}}s"
+        one: "Op dit moment is er slechts 1 {{model}}"
+        other: "Er zijn al {{count}} {{model}}s"
+      heading:
+        your: "Uw {{model}}s"
+        other: "{{model}}s"
+      add_form_heading: "{{a_or_an}} {{model}} Toevoegen"
+      empty_message: "Geen geregistreerde relaties"
+            
+    # hobos form translation
+    form:
+      new:
+        heading: "Nieuwe {{model}}"
+      error:
+        heading: "De volgende fout is opgetreden:"
+
+    # hobo support
+    support:
+      or: "of"
+      a: "een"
+      an: "een"
+  
