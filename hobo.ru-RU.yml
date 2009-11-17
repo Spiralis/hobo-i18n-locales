@@ -1,0 +1,148 @@
+####
+#### Hobo Russian Translation
+#### Nick Gorbikoff 
+#### nick.gorbikoff@gmail.com
+####
+ru:
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "{{model}} Индекс"
+        heading: "{{model}} Индекс"
+
+      new:
+        title: "Создать {{model}}"
+        heading: "Создать {{model}}"
+
+      show:
+        title: "{{model}}"
+        heading: "{{model}}"
+        back_link: "Назад"
+        edit_link: "Изменить {{model}}"
+        new_link: "Создать {{model}}"
+        add_form_heading: "Добавить {{model}}"
+
+      edit:
+        title: "Изменить {{model}}"
+        heading: "Изменить {{model}}"
+
+      index_for_owner:
+        title: "{{model}}и для"
+        heading:
+          your: "Ваши {{model}}и"
+          other: "{{model}}и"
+        subheading: "For:"
+
+      new_for_owner:
+        title: "Создать {{model}} для"
+        heading: "Создать {{model}}"
+        subheading: "Для:"
+          
+      login:
+        title: "Логин"
+        heading: "Логин"
+        email: "Эл. почта"
+        password: "Пароль"
+        remember_me: "Запомнить меня"
+        login: "Зайти"
+        signup: "Регистрация"
+        forgot_password: "Забыли пароль?"
+
+      signup:
+        title: "Регистрация"
+        heading: "Регистрация нового пользователя"
+  
+      forgot_password:
+        title: "Забытый пароль?"
+        heading: "Забытый пароль?"
+        text: "Введите адрес электроной почты, который Вы использовали при регистрации.
+			   Мы вышлем Вам на него инструкции для изменения / восстановления пароля."
+        email: "Эл. почта"
+        send: "Выслать"
+
+      forgot_password_sent:
+        title: "Забытый пароль - Письмо отослано"
+        heading: "Забытый пароль - Письмо отослано"
+        text: "Письмо с инструкциями для восстановления пароля было выслано на {{email}}. Если Вы не получили письмо, проверьте Ваш спам-фильтр."
+
+      account_disabled:
+        title: "Учётная запись не найдена"
+        heading: "Учётная запись не найдена"
+        text: "Мы не можем найти учётную  запись соответствующую данному адресу электроной почты. Проверте, что он введён правельно."
+
+    # hobos default action translation
+    action:
+      new: "Создать"
+      create: "Создать"
+      previous: "Предедущий"
+      next: "Следующий"
+      add: "Добавить"
+      more: "Ещё"
+      delete: "Удалить{{model}}"
+      save: "Сохранить"
+      cancel: "Отменить"
+      edit: "Изменить {{model}}"
+      back: "Назад к"
+      send: "Отослать"
+      remove: "Убрать"
+      signup: "Подписаться"
+      login: "Войти"
+    
+    # hobos default message translation  
+    messages:
+      create:
+        success: "Запись в {{model}} создана без ошибок."
+        error: "Нельзя удалить {{model}}.\n{{errors}}"
+      creator:
+        error: "Не могу исполнить указазания создателя {{name}}.\n{{errors}}"
+      transition:
+        error: "Не могу исполнить указазания изменителя {{name}}.\n{{errors}}"
+      update:
+        no_attribute_error: "Изменения не укзаны в аттрибутах."
+        success: "Изменения в {{model}} сохранены."
+        error: "Не могу сохранить изменения. \n{{errors}}"
+      destroy:
+        success: "Удаление {{model}} было завершено без ошибок."
+      signup: 
+        success: "Спасибо за регистрацию"
+        must_activate: "Вы должны активировать вашу учётную запись. Пожалуйста, проверте вашу электроную почту."
+      login: 
+        success: "Вы зашли в систему."
+        error: "Имя пользователя ({{login}}) и пароль предоставленные вами - неправильны!"
+      logout: "Вы вышли из системи."
+      reset_password: "Ваш пароль был изменён."
+      permission_denied: "Доступ закрыт!"
+      not_found: "Страницы, запрошеной вами, не существует."
+      unauthenticated: "Система не может подвтердить, аутентичность вашой учётной записи."
+      current_password_is_not_correct: "напрвильно"
+      you_are_site_admin: "Вы получили права администратора сайта."
+      you_signed_up: "Вы зарегестрировались."
+      no: "Нет свободных {{model}}."
+      confirm: "Вы уверены?"
+        
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "Ноль {{model}}ей"
+        one: "Существует тольйко один(одна) {{model}} на данный момент."
+        other: "Уже существует {{count}} {{model}}ей"
+      heading:
+        your: "Ваши(а) {{model}}(и)"
+        other: "{{model}}(и)"
+      add_form_heading: "Добавить {{a_or_an}} {{model}}"
+      empty_message: "Нет зарегестрированных связей."
+            
+    # hobos form translation
+    form:
+      new:
+        heading: "Создать {{model}}"
+      error:
+        heading: "Произошла ошибка:"
+
+    # hobo support
+    support:
+      or: "или"
+      a: ""
+      an: ""
+  
