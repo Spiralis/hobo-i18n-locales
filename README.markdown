@@ -1,4 +1,4 @@
-# Welcome to the Hobo-i18n-translations project
+# Welcome to the Hobo-i18n-locales repository
 This is the official i18n-locale repository for [Hobo](http://github.com/tablatom/hobo). It focuses on maintaining different i18n-locale translations for use in Hobo. 
 
 This used to be the repository for the hobo-i18n project, but since hobo-i18n was merged into Hobo itself this repository became the official Hobo i18n-locale source.
