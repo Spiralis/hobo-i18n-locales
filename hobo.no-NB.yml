@@ -1,7 +1,7 @@
 ####
 #### Hobo Translation
 ####
-"no":      
+"no-NB":      
   hobo:
     # hobos default pages translations
     page:
@@ -86,7 +86,10 @@
       remove: "Fjerne"
       signup: "Registrér"
       login: "Logg inn"
-      
+      logout: "Logg ut"                    
+      logged_in_as: "Innlogget som {{name}}"
+      account: "Konto"
+
     # hobos default message translation  
     messages:
       create:
@@ -132,7 +135,7 @@
       empty_message: "Ingen registrerte relasjoner"
     
     # hobos form translation
-    forms:
+    form:
       new:
         heading: "Ny {{model}}"
       error:
@@ -143,4 +146,17 @@
       or: "eller"
       a: "en"
       an: "en"
-    
+
+    table_plus:
+      search: "Søk"
+      empty: "Ingen {{model}} å vise"
+      
+    live_search:
+      label: "Søk" 
+      results_label: "Søkeresultater"
+      close_button: "lukk"
+      more: "Mer"
+      no_results: "Ingen treff."
+
+    dev_user_changer:
+      guest: "Gjest"
