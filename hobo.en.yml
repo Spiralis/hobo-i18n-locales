@@ -86,7 +86,10 @@ en:
       remove: "Remove"
       signup: "Signup"
       login: "Login"
-    
+      logout: "Log out"
+      logged_in_as: "Logged in as {{name}}"
+      account: "Account"
+          
     # hobos default message translation  
     messages:
       create:
@@ -143,4 +146,17 @@ en:
       or: "or"
       a: "a"
       an: "an"
-  
+    
+    table_plus:
+      search: "Search"
+      empty: "No {{model}} to display"
+      
+    live_search:
+      label: "Search" 
+      results_label: "Search Results"
+      close_button: "close"
+      more: "More"
+      no_results: "Your search returned no matches."
+
+    dev_user_changer:
+      guest: "Guest"
