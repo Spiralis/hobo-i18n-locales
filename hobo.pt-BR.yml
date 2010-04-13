@@ -1,0 +1,161 @@
+####
+#### Hobo Translation
+####
+pt-BR:
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "{{model}} Índice"
+        heading: "{{model}} Índice"
+
+      new:
+        title: "Novo {{model}}"
+        heading: "Novo {{model}}"
+
+      show:
+        title: "{{model}}"
+        heading: "{{model}}"
+        back_link: "Voltar"
+        edit_link: "Editar {{model}}"
+        new_link: "Novo {{model}}"
+        add_form_heading: "Adicionar {{model}}"
+
+      edit:
+        title: "Editar {{model}}"
+        heading: "Editar {{model}}"
+
+      index_for_owner:
+        title: "{{model}}s para"
+        heading:
+          your: "Seus {{model}}s"
+          other: "{{model}}s"
+        subheading: "Para:"
+
+      new_for_owner:
+        title: "Novo {{model}} para"
+        heading: "Novo {{model}}"
+        subheading: "Para:"
+          
+      login:
+        title: "Login"
+        heading: "Login"
+        email: "E-mail"
+        password: "Senha"
+        remember_me: "Lembre me"
+        login: "Login"
+        signup: "Assinar"
+        forgot_password: "Esqueceu a senha?"
+
+      signup:
+        title: "Assinar"
+        heading: "Assinar como novo usuário"
+  
+      forgot_password:
+        title: "Esqueceu a senha?"
+        heading: "Esqueceu a senha?"
+        text: "Entre com o seu endereço de email, o mesmo de quando assinou este site. Enviaremos a você um link para gerar uma nova senha."
+        email: "E-mail"
+        send: "Enviar"
+
+      forgot_password_sent:
+        title: "Recuperação de senha - email enviado"
+        heading: "Recuperação de senha - email enviado"
+        text: "Um e-mail com instruções de como gerar uma nova senha foi enviado para o {{email}}. Se não conseguir recebe-lo, verifique seu filtro de spam."
+
+      account_disabled:
+        title: "Account not found"
+        heading: "Account not found"
+        text: "Could not find an account that matches the e-mail given. Please check that the e-mail address was correct."
+
+    # hobos default action translation
+    action:
+      new: "Novo"
+      create: "Criar"
+      previous: "Anterior"
+      next: "Próximo"
+      add: "Adicionar"
+      more: "Mais"
+      delete: "Remover {{model}}"
+      save: "Salvar"
+      cancel: "Cancelar"
+      edit: "Editar {{model}}"
+      back: "Voltar para"
+      send: "Enviar"
+      remove: "Remover"
+      signup: "Assinar"
+      login: "Login"
+      logout: "Log out"
+      logged_in_as: "Logado como {{name}}"
+      account: "Conta"
+          
+    # hobos default message translation  
+    messages:
+      create:
+        success: "O {{model}} foi criado com sucesso"
+        error: "Não foi possível criar {{model}}.\n{{errors}}"
+      creator:
+        error: "Não foi possível fazer a criação de {{name}}.\n{{errors}}"
+      transition:
+        error: "Não foi possível fazer a transição {{name}}.\n{{errors}}"
+      update:
+        no_attribute_error: "Sem alteração especificada em Parametros"
+        success: "Mudanças em {{model}} foram salvas"
+        error: "Ocorreu um problema com a alteração.\n{{errors}}"
+      destroy:
+        success: "{{model}} foi removido"
+      signup: 
+        success: "Obrigado por assinar!"
+        must_activate: "Você deve ativar o seu registro antes de se logar. Por favor, verifique seu email."
+      login: 
+        success: "Você está logado."
+        error: "Você não especificou um usuário válido ({{login}}) e senha!"
+      logout: "Você se desconectou"
+      reset_password: "Sua senha foi reinicializada."
+      permission_denied: "Permissão negada!"
+      not_found: "A página solicitada não pode ser encontrada"
+      unauthenticated: "Não foi possível lhe autenticar."
+      current_password_is_not_correct: "não está correto."
+      you_are_site_admin: "Agora você é o administrador do site"
+      you_signed_up: "Você acabou de se registrar"
+      no: "Nenhum {{model}} disponível."
+      confirm: "Tem certeza?"
+        
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "Não há {{model}}s"
+        one: "S existe um(a) {{model}} no momento"
+        other: "Já exsitem {{count}} {{model}}s"
+      heading:
+        your: "Seus {{model}}s"
+        other: "{{model}}s"
+      add_form_heading: "Adicionar {{a_or_an}} {{model}}"
+      empty_message: "Sem relações registradas"
+            
+    # hobos form translation
+    form:
+      new:
+        heading: "Novo {{model}}"
+      error:
+        heading: "O seguinte erro ocorreu:"
+
+    # hobo support
+    support:
+      or: "ou"
+      a: "um"
+      an: "um"
+    
+    table_plus:
+      search: "Pesquisar"
+      empty: "Nenhum {{model}} para mostrar"
+      
+    live_search:
+      label: "Pesquisar" 
+      results_label: "Resultado da pesquisa"
+      close_button: "fechar"
+      more: "Mais"
+      no_results: "Sua pesquisa não retornou resultados."
+
+    dev_user_changer:
+      guest: "Visitante"
